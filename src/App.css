@@ -34,9 +34,8 @@ label {
   color: rgb(1, 55, 56);
 }
 
-h2,
-.in {
-  color: rgb(1, 55, 56);
+.App h1 {
+  font-size: 2em;
 }
 
 .container,
@@ -50,13 +49,16 @@ h2,
   gap: 30px;
 }
 
-.App form h2 {
+.App form h2,
+.in {
+  color: rgb(1, 55, 56);
   height: 40px;
   border-radius: 7px;
   border: 2px solid rgb(69, 116, 131);
-  width: 300px;
+  width: 360px;
   font-weight: 900;
   background-color: rgb(185, 210, 208);
+  font-size: 1.45em;
 }
 
 label {
@@ -69,16 +71,7 @@ label {
   gap: 5px;
 }
 
-.in {
-  display: block;
-  justify-content: center;
-  border-radius: 7px;
-  width: 300px;
-  height: 40px;
-  font-weight: 900;
-  border: 2px solid rgb(69, 116, 131);
-  background-color: rgb(185, 210, 208);
-}
+
 
 .btns {
   display: flex;
